@@ -15,5 +15,5 @@ object canastaDeManzanas {
 }
 
 object hamburguesa{
-    method peso() = 0.25
+    method peso() = 20
 }

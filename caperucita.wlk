@@ -1,3 +1,4 @@
+import feroz.*
 import objetos.canastaDeManzanas
 object caperucita {
     const pesoCaperucita = 60
@@ -8,5 +9,9 @@ object caperucita {
 
     method caerManzana(){
         canastaDeManzanas.restarManzanas(1)
+    }
+
+    method alimentar(alguien){
+        alguien.comer(canastaDeManzanas)
     }
 }

@@ -22,6 +22,10 @@ object feroz {
         peso += alimento.peso() * 0.1
     }
 
+    method comerEnCantidad(alimento, cantidad){
+        peso += alimento.peso() * 0.1 * cantidad
+    }
+
     method correr(){
         peso -= 1
     }
